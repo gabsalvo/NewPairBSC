@@ -7,7 +7,7 @@ const addresses = {
 
 const swapPancakeAbi = ['function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline) external returns (uint[] memory amounts)'];
 
-const provider = new ethers.providers.WebSocketProvider("wss://billowing-lingering-pallet.bsc.discover.quiknode.pro/1352232171bf3c615eb35b503bff85f7129f37e4/")
+const provider = new ethers.providers.WebSocketProvider("${API-PROVIDER-HERE-USING-WWS}")
 
 
 //const honeyCheck = new ethers.Contract(addresses.honeyAddress, honeyABI, provider);
